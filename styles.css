@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@400;700&family=BIZ+UDPMincho&family=Caveat&family=Crimson+Text&family=Didact+Gothic&family=Freehand&family=Fuzzy+Bubbles&family=Inconsolata&family=Indie+Flower&family=Inspiration&family=Kanit:ital,wght@0,300;0,700;1,400&family=Lobster&family=Pacifico&family=Playfair+Display&family=Righteous&family=Silkscreen&family=Teko&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    width: auto;
+}
+.main {
+    text-align: center;
+    background-image: url(./images/blurred-background-vintage-filter-customer-coffee-shop-blur-background-with-bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main header h1 {
+    font-size: 60px;
+    font-family: 'Silkscreen';
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    margin-top: 45px;
+}
+.main header h2 {
+    font-size: 60px;
+    font-family: 'Kanit';
+    margin-top: 50px;
+}
+
+.main-menu li {
+    list-style-type: none;
+    margin-top: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.main-menu li a {
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+   
+}
+.main-menu .colors {
+    margin-top: 50px;
+}
+.main-footer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+}
+h1 {
+    text-align: center;
+}
+.colors {
+    background-color: palevioletred;
+}
+.fonts {
+    background-color: skyblue;
+}
+.styles {
+    background-color: lightseagreen;
+}
+.colors a {
+    border: 3px dotted darkblue;
+}
+.fonts a {
+    border: 3px dashed darkblue;
+}
+.styles a {
+    border: 3px double darkblue;
+}
+#fonts {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#styles {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.breadcrumb li{
+    display: inline;
+}
+.breadcrumb li+li::before {
+    content: ">";
+}
+.sub-color {
+    height:100%;
+    width: 100%;
+    background-image: url(./images/color-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+.sub-color header {
+    margin-top: 20px;
+}
+.sub-color header h1 {
+    font-family: 'Pacifico', cursive;
+    background-image: url(./images/golden-wall-background.jpg);
+    text-shadow: -1px -1px 0 #C38508, 1px -1px 0 #C38508, -1px 1px 0 #C38508, 1px 1px 0 #C38508;
+    margin-bottom: 0px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color-boxes,
+.font-boxes,
+.style-boxes {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-evenly;
+
+}
+.sub-color h2 {
+    font-size: 40px;
+
+}
+.color-boxes div {
+    border: 3px dotted black;
+    border-radius: 10px;
+}
+.color1,
+.color2,
+.color3,
+.color4,
+.color5,
+.color6 {
+    width: 45%;
+    height: 25%;
+    padding-top: 25px;
+    padding-left: 15px;
+
+}
+.color-boxes p {
+    font-size: 30px;
+    font-family: 'Caveat';
+    padding-right: 15px;
+}
+.color1 {
+    background-color: rgb(102, 20, 53);
+    font-family: 'Lobster', cursive;
+}
+.color2 {
+    background-color: rgb(3, 139, 154);
+    font-family: 'Inspiration', cursive;
+    
+}
+.color3 {
+    
+    background-color: rgb(91, 10, 89);
+    font-family: 'Abril Fatface', cursive;
+    
+}
+.color4 {
+    background-color: rgb(26, 126, 94);
+    font-family: 'Indie Flower', cursive;
+}
+.color5 {
+    background-color: rgb(206, 53, 81);
+    font-family: 'Teko', sans-serif;
+}
+.color6 {
+    background-color: rgb(238, 179, 32);
+    font-family: 'BIZ UDPMincho', serif;
+}
+.color2 h2 {
+    font-size: 50px;
+}
+.color6 h2 {
+    margin-bottom: 5px;
+}
+.breadcrumb a {
+    color: white;
+}
+.breadcrumb a:hover {
+    color:rgb(238, 179, 32);
+}
+.colors-footer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+}
+.sub-font {
+    background-image: url(./images/newpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Crimson Text', serif;
+    height: 100%;
+    width: 100%;
+}
+.sub-font header{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #F7E9CD;
+    font-size: 30px;
+}
+.sub-font .breadcrumb a:hover {
+    color:black;
+}
+.font-boxes div {
+    border: 1px solid black;
+    height: 35%;
+    width: 30%;
+    background-color: #F7E9CD;
+    box-shadow: 2px 2px 5px black;
+}
+.font-boxes h2{
+    font-size: 3rem;
+}
+.font-boxes li {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+.font-boxes h2,
+.font-boxes ul {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.font2 h2,
+.font2 ul {
+    margin-top: 0px;
+}
+.font2 {
+    font-family: 'Freehand', cursive;
+}
+.font3 {
+    font-family: 'Playfair Display', serif;
+}
+.font4 {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.font5 {
+    font-family: 'Kanit', sans-serif;
+}
+.sub-style {
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/21338256_6464903.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub-style h1,
+.header .example {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 75px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+.style-boxes div{
+    background-color: rgb(21, 15, 4, 0.73);
+    color: whitesmoke;
+    width: 22%;
+    height: 70%;
+    border: 2px dashed rgb(241, 158, 3, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+.style-boxes h2,
+.sub-header .example {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    color:#DEDDDD;
+    text-shadow: 1px 1px 1px white;
+}
+.style-boxes div ul {
+    list-style-position: inside;
+    text-align: left;
+}
+.style-boxes .example {
+    text-align: center;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-indent: 0px;
+}
+.style-boxes li {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-indent: -1.3em;
+    padding-left: 1em;
+    list-style-position: inside;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-weight: 400px;
+}
+.links .example {
+    color: goldenrod;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.sub-style .breadcrumb a{
+    color: goldenrod;
+}
+.sub-style .breadcrumb {
+    color: white;
+}
+.sub-style .breadcrumb a:hover{
+    color: white;
+}
+.style-footer {
+    font-family: 'Didact Gothic', sans-serif;
+    width: fit-content;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+}
+.style-footer a{
+    color: goldenrod;
+    background-color: rgb(21, 15, 4, 0.73);
+    border-radius: 2px;
+}
+.style-footer a:hover {
+    color: #DEDDDD;
+}
